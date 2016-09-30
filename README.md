@@ -1,1 +1,1 @@
-# docker-mamute
+# Mamute
