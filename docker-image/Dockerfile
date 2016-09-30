@@ -21,6 +21,7 @@ ENV VRAPTOR_ENV=production \
     \
     MAMUTE_HOST=localhost \
     MAMUTE_PORT=80 \
+	MAMUTE_PROTOCOL=http \
     MAMUTE_ENABLE_SIGNUP=true \
     MAMUTE_ALLOW_QUESTION_DELETE=true \
     MAMUTE_ENABLE_SOLR=true \
@@ -39,6 +40,7 @@ ENV VRAPTOR_ENV=production \
     MAIL_PASSWORD=password \
     MAIL_FROM=no-reply@null.com \
     MAIL_FROM_NAME="Mamute System" \
+    ERROR_MAIL_LIST="your_mailing_list" \
     \
     HEADER_TAGS= \
     LDAP_PORT=389 \
