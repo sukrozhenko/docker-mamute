@@ -15,7 +15,7 @@ mysql:
 
 mamute:
   container_name: mamute
-  image: sukrozhenko/mamute:1.4.0
+  image: sukrozhenko/mamute:1.0.0
   restart: always
   privileged: true
 

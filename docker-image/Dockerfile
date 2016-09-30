@@ -2,13 +2,13 @@ FROM java:8-jdk
 MAINTAINER sukrozhenko
 
 # Mamute version
-ENV VERSION=1.4.0
+ENV VERSION=1.0.0
 
 RUN mkdir /opt/mamute
 WORKDIR /opt/mamute
 
 #RUN wget --no-check-certificate -nv https://github.com/sukrozhenko/mamute/releases/download/v${VERSION}/mamute-${VERSION}.war && \
-    ADD mamute-1.4.0.war .
+    ADD mamute-1.0.0.war .
 RUN \
     unzip mamute-${VERSION}.war && \
     rm mamute-${VERSION}.war
