@@ -106,6 +106,4 @@ set_configuration() {
 set_hibernate_configuration > WEB-INF/classes/production/hibernate.cfg.xml
 set_configuration > WEB-INF/classes/production.properties
 
-sed -i 's/tags.featured =/tags.featured=${HEADER_TAGS}/g' WEB-INF/classes/mamute-messages.properties
-
 PORT=${MAMUTE_PORT} /opt/mamute/run.sh
