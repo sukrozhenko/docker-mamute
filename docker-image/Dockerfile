@@ -8,7 +8,7 @@ RUN mkdir /opt/mamute
 WORKDIR /opt/mamute
 
 #RUN wget --no-check-certificate -nv https://github.com/sukrozhenko/mamute/releases/download/v${VERSION}/mamute-${VERSION}.war && \
-    ADD mamute-1.0.0.war .
+    ADD mamute-${VERSION}.war .
 RUN \
     unzip mamute-${VERSION}.war && \
     rm mamute-${VERSION}.war
